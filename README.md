@@ -33,4 +33,4 @@ The PointPainting means to fuse the semantic segmentation results based on RGB i
 
 ### Framework Overview
 The PointPainting architecture consists of three main stages: (1) image based semantics network, (2) fusion (painting), and (3) lidar based detector. In the first step, the images are passed through a semantic segmentation network obtaining pixelwise segmentation scores. In the second stage, the lidar points are projected into the segmentation mask and decorated with the scores obtained in the earlier step. Finally, a lidar based object detector can be used on this decorated (painted) point cloud to obtain 3D detections.
-![](figures/framework_overview.png)
+![](figures/framework_overview.png)# software_eng
